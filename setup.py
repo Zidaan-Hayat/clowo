@@ -11,7 +11,7 @@ setuptools.setup(
     description="Turn your bland old english into a fuwwy poetic mastewpiece",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/Zidaan-Hayat/owoifyer",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
