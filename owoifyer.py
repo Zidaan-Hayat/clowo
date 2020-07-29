@@ -11,7 +11,7 @@ emojis = [
     "◕w◕"
 ]
 
-def owoify(txt: str, ending_emoji: bool) -> str:
+def owoify(txt: str, ending_emoji: bool = False) -> str:
     txt = re.sub(pattern=r'(?:l|r)', repl='w', string=txt)
     txt = re.sub(pattern=r'(?:L|R)', repl='W', string=txt)
     txt = re.sub(pattern=r'n([aeiou])', repl='ny', string=txt)
